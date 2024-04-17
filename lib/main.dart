@@ -25,6 +25,13 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: Container());
+        home: Scaffold(
+          appBar: AppBar(
+            title: const Text('Unique Demo App'),
+          ),
+          body: const Center(
+            child: Text('Home Page'),
+          ),
+        ));
   }
 }
